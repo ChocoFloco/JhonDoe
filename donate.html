@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+    <title>Donate - Presidential Campaign</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Presidential Campaign 2024</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="issues.html">Issues</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+        <a href="donate.html">Donate</a> <!-- Added donate page link -->
+    </nav>
+    <section id="main-content">
+        <h2>Donate to Support the Campaign</h2>
+        <p>Your support is crucial for our success. Please consider contributing to our cause.</p>
+        <form action="https://example.com/donation" method="post">
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" step="1">
+            <br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <input type="submit" value="Donate">
+        </form>
+    </section>
+    <footer>
+        &copy; 2023 Presidential Campaign
+    </footer>
+    <script src="script.js"></script> <!-- Link to an external JavaScript file -->
+</body>
+</html>
